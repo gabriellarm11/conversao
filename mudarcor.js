@@ -9,6 +9,6 @@ function mudarCor() {
     } else if (valor === "azul") {
         quadrado.style.backgroundColor = "blue";
     } else {
-        quadrado.style.backgroundColor = "lightgray"; // cor padrão
+        quadrado.style.backgroundColor = "lightgray"; 
     }
 }
