@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #quadrado {
+            width: 200px;
+            height: 200px;
+            background-color: rgb(230, 225, 225);
+            border: 2px solid #000;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <p>
+        <label>Escolha uma cor:</label>
+        <select onchange="mudarCor()"> 
+            <option value="">-- Selecione --</option>
+            <option value="vermelho">Vermelho</option>
+            <option value="verde">Verde</option>
+            <option value="azul">Azul</option>
+        </select>
+    </p>
+
+    <div id="quadrado"></div>
+
+    <script src="troca.js"></script>
+</html>

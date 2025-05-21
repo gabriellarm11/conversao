@@ -2,7 +2,7 @@ function converter() {
     const dolarInput = document.getElementById('dolar');
     const resultado = document.getElementById('resultado');
     const dolar = parseFloat(dolarInput.value);
-    const taxaCambio = 5.15; // Cotação fixa
+    const taxaCambio = 5.69; // Cotação fixa
   
     if (dolarInput.value.trim() === '' || isNaN(dolar)) {
       resultado.style.color = 'red';
