@@ -12,5 +12,5 @@ function calcularDesconto() {
 
     document.getElementById('resultado').innerHTML =
       `valor do Desconto : R$ ${valorDesconto.toFixed(2)}<br>` +
-      `Preço final com desconto : R$ ${precoFinal.toFixed(2)}`;
+      `Preço final com desconto : R$ ${precoFinal.toFixed(2)}`
   }
